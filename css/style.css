@@ -1,0 +1,422 @@
+* {
+  box-sizing: border-box;
+  font-family: "Be Vietnam Pro", sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+/*---> Esta es la parte del encabezado <--- */
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  margin-top: 30px;
+}
+header li {
+  margin: 5px;
+}
+header ul {
+  display: flex;
+}
+
+.img {
+  margin-top: 12px;
+}
+.get-started {
+  display: flex;
+  width: 134px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  color: white;
+  box-shadow: 0px 4px 8px rgba(242, 97, 59, 0.5);
+  border-radius: 50px;
+  background: #f3603b;
+  border-radius: 50px;
+}
+.get-started:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+.menu {
+  text-decoration: none;
+}
+.boton img {
+  display: none;
+}
+/*---> Termina la parte del encabezado <--- */
+/*---> Esta es la seccion de graficos<--- */
+.graficos {
+  display: flex;
+  justify-content: space-around;
+}
+.graficos-bloque1 {
+  width: 400px;
+  margin-left: 165px;
+}
+.graficos-bloque1 h2 {
+  width: 439px;
+  height: 198px;
+  color: #232c50;
+  margin-top: 100px;
+  font-size: 40px;
+  justify-content: center;
+  text-align: left;
+}
+.graficos-bloque1 p {
+  width: 350px;
+  margin-bottom: 40px;
+}
+.graficos-bloque2 {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 150px;
+  flex-wrap: wrap;
+  height: 485px;
+  width: 700px;
+}
+.barras {
+  width: 50%;
+}
+.circulo {
+  width: 50%;
+}
+.hide {
+  display: none;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.a {
+  background-color: #fafafa;
+  color: #343a40;
+  margin-top: 10px;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-bottom: 10px;
+  margin-left: 140px;
+  width: 227px;
+  font-size: 30px;
+  border-radius: 5%;
+  align-self: center;
+}
+.b {
+  background-color: #f3603c;
+  align-self: flex-end;
+  margin-left: 140px;
+  padding-top: 48px;
+  padding-left: 15px;
+  width: 100px;
+  color: white;
+  height: 78px;
+  border-radius: 5%;
+}
+.c {
+  background-color: #fafafa;
+  padding-top: 48px;
+  padding-left: 15px;
+  margin-top: -78px;
+  margin-left: 240px;
+  width: 130px;
+  color: black;
+  height: 78px;
+  border-radius: 5%;
+}
+/*---> Termina la parte de los graficos<--- */
+/*---> Comienzan los comentarios<--- */
+
+.comments {
+  display: flex;
+  margin-top: 90px;
+  justify-content: space-between;
+  height: 550px;
+}
+div.comments1 h2 {
+  color: #232851;
+  font-size: 36px;
+}
+div.comments1 p {
+  color: black;
+  margin-top: 30px;
+  font-size: 16px;
+}
+.comments2 {
+  width: 433px;
+  height: 212px;
+  margin-left: 165px;
+}
+.commentsLi {
+  display: flex;
+  margin-right: 100px;
+  width: 433px;
+  padding: 10px;
+  justify-content: space-between;
+}
+.listaDiv {
+  display: flex;
+  justify-content: space-around;
+}
+.marker {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+.marker div {
+  background-color: #f3603b;
+  width: 69px;
+  border-radius: 30px;
+}
+.marker p {
+  margin-top: 10px;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+.marker1 {
+  margin: 10px;
+  margin-bottom: 50px;
+}
+.marker2 {
+  margin: 10px;
+
+  margin-top: -2px;
+}
+.marker3 {
+  margin: 10px;
+  margin-top: 63px;
+}
+.lista {
+  display: flex;
+  flex-direction: column;
+}
+.lista h4 {
+  margin-bottom: 10px;
+}
+.commentsLi h4 {
+  color: #323851;
+}
+.commentsLi ul#lista p {
+  color: #b3b2b7;
+}
+
+/*---> Termina los comentarios<--- */
+/*---> Comienzan el titulo mayor<--- */
+.big-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.big-title2 {
+  display: flex;
+  align-content: center;
+}
+.title {
+  font-size: 25px;
+  width: 504px;
+  color: #242e53;
+  text-align: center;
+  align-self: center;
+  margin-bottom: 50px;
+}
+.opinions {
+  display: flex;
+  padding: 40px;
+  justify-content: space-between;
+}
+div.opinions .anisha,
+.ali,
+.richard {
+  background-color: #fafafa;
+  text-align: center;
+  height: 219px;
+  font-size: 16px;
+  color: #b9b9c1;
+  width: 445px;
+}
+#anisha {
+  position: absolute;
+  margin-left: 227px;
+}
+#ali {
+  position: absolute;
+  margin-left: 640px;
+}
+#richard {
+  position: absolute;
+  margin-left: 1070px;
+}
+
+div.opinions h6 {
+  padding-top: 60px;
+  font-size: 16px;
+  color: #3f4868;
+}
+div.opinions p {
+  padding-top: 20px;
+}
+.buttonComments1 {
+  display: flex;
+  align-self: center;
+  margin-bottom: 120px;
+}
+.buttonComments2 {
+  display: flex;
+  width: 134px;
+  align-self: center;
+  padding: 10px;
+  color: white;
+  border-radius: 50px;
+  background: #f3603b;
+  border-radius: 50px;
+}
+
+/*-->Terminado los perfiles */
+.advise {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 25px;
+  background-color: #f3613c;
+  width: 100%;
+  height: 224px;
+}
+.advise h1 {
+  margin-left: 165px;
+  margin-top: 50px;
+  margin-bottom: 64px;
+  font-size: 40px;
+  color: white;
+  width: 438px;
+}
+#envio {
+  display: flex;
+  margin-top: 70px;
+  margin-right: 70px;
+  width: 134px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  color: #f3603b;
+  box-shadow: 0px 4px 8px rgba(242, 97, 59, 0.5);
+  background: #ffffff;
+  border-radius: 50px;
+  height: 50px;
+}
+
+/*--> Aqui termina el advise */
+.contact {
+  padding: 15px;
+  background-color: #1e1e26;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  height: 247px;
+}
+.contactInfo {
+  display: flex;
+  color: white;
+  flex-direction: column;
+}
+.contactLogo {
+  margin-top: 40px;
+  margin-left: 176px;
+}
+.contactRedes {
+  margin-left: 176px;
+  margin-top: 60px;
+}
+div.contactRedes img {
+  padding: 5px;
+}
+.primerLista {
+  margin-top: 30px;
+  align-items: center;
+  line-height: 40px;
+  color: white;
+  flex-direction: column;
+}
+.segundaLista {
+  margin-top: 30px;
+  color: white;
+  align-items: center;
+  line-height: 40px;
+  flex-direction: column;
+}
+#email {
+  padding: 10px;
+  border-radius: 50px;
+  color: #a0a0a0;
+}
+#email:invalid {
+  background-color: white;
+}
+#email1 {
+  width: 63px;
+  height: 42px;
+  background-color: #f3603b;
+  border-radius: 50px;
+  color: white;
+}
+.form {
+  margin-top: 30px;
+}
+#community {
+  color: white;
+  text-decoration: none;
+}
+#email1:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+#community:hover {
+  color: #f3603b;
+}
+
+.footer {
+  margin-top: 100px;
+  margin-right: 20px;
+  color: #8c8c94;
+}
+
+@media (max-width: 375px) {
+  header {
+    padding: 0px;
+    justify-content: space-between;
+  }
+  header .img {
+    margin-left: 15px;
+    padding: 10px;
+  }
+  header ul,
+  .get-started {
+    display: none;
+  }
+  .boton img {
+    display: inline;
+    margin-top: 10px;
+    margin-right: 50px;
+  }
+  .graficos {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .graficos-bloque2 {
+    flex-wrap: wrap;
+    height: 0px;
+    width: 0px;
+    margin-left: 0px;
+  }
+  .circulo {
+    display: none;
+  }
+  .circulo2 {
+    display: inline;
+  }
+  .barras {
+    width: 50px;
+    height: 50px;
+  }
+}
